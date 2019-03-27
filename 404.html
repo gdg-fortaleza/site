@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam incidunt itaque, accusamus aut consequuntur neque eum recusandae nulla! Unde numquam culpa labore placeat a iure hic? Laboriosam consequatur maxime enim?</p>
-</body>
-</html>
+<script>
+    const path = window.location.pathname.splice(1);
+    localStorage.setItem('path', path);
+    window.location.href='../';
+</script>
